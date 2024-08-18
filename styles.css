@@ -22,6 +22,12 @@
     padding: 10px;
 }
 
+.flex-container {
+    display: flex;
+    background-color: lightblue;
+    justify-content: space-between;
+}
+
 img {
     height: 50vh;
     width: 100%;
