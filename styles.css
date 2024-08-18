@@ -1,6 +1,5 @@
 * {
     list-style-position: inside;
-    line-height: 20px;
     margin: 0px;
 }
 
@@ -18,22 +17,20 @@
     background-color: lightblue;
 }
 
+.flex-container {
+    display: flex;
+    background-color: lightblue;
+}
+
+.flex-column {
+    flex: 1;
+}
+
 .footer {
     display: flex;
     justify-content: space-between;
     background-color: gray;
-    color: white;
     padding: 10px;
-}
-
-.flex-container {
-    display: flex;
-    background-color: lightblue;
-    justify-content: space-between;
-}
-
-.flex-column {
-    min-width: 25%;
 }
 
 img {
