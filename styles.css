@@ -11,6 +11,8 @@
 .section {
     border: 5px solid black;
     margin: 10px;
+    border-radius: 25px;
+    overflow: hidden;
 }
 
 .content {
