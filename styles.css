@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
     list-style-position: inside;
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
-.title, .header {
+.navbar, .header {
     background-color: black;
     color: white;
 }
@@ -31,7 +34,8 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    background-color: gray;
+    background-color: black;
+    color: white;
     padding: 10px;
 }
 
@@ -45,7 +49,7 @@ img {
 a {
     font-weight: bolder;
     text-decoration: none;
-    color: black;
+    color: inherit;
 }
 
 ul, ol {
