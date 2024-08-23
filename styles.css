@@ -13,7 +13,7 @@
 
 .section {
     border: 5px solid black;
-    margin: 10px;
+    margin: 20px;
     border-radius: 25px;
     overflow: hidden;
 }
@@ -24,19 +24,27 @@
 
 .flex-container {
     display: flex;
-    background-color: lightblue;
+    flex-wrap: wrap;
+    align-items: stretch;
 }
 
 .flex-column {
     flex: 1;
+    min-width: 300px;
+    background-color: lightblue;
 }
 
 .footer {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     background-color: black;
     color: white;
     padding: 10px;
+}
+
+.footer-item {
+    flex: auto;
+    text-align: center;
 }
 
 img {
